@@ -1,0 +1,39 @@
+         header {
+            ackground-color: #afa84c; 
+             padding: 20px;
+            color: white;
+
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(fondo1.jpg);
+        }
+           
+        h1{
+            color: #b57c00;
+            
+        }
+
+        img{
+            border: 2px solid black;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse; 
+        }
+
+        footer {
+            background-color: #f7d547;
+        }
+        main {
+            margin-bottom: 130px;
+        }
+
+        a {
+         color: #007BFF;
+        }
+
+       
