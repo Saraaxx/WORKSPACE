@@ -1,0 +1,93 @@
+table{
+    border-collapse: collapse;
+    font-size: 1.2rem;
+
+}
+
+ td{
+       
+         width: 120px;
+        height: 80px;
+        vertical-align: middle;
+        font-weight: bold;
+        color:black;
+        }
+
+
+    
+    #Felicidad{ 
+        border-style:solid;
+        border-color: yellow;
+        background-color: rgb(224, 224, 68);
+        padding: 100px 4px 15px 20px;
+        margin: 12px 10px 12px 10px
+    }
+
+    #Miedo{
+        border-style: dotted;
+        border-color: black;
+         background-color: grey;
+         padding: 10px 2px 1px 1px;
+        margin: 4px 3px 2px 6px
+    }
+
+    #Esperanza{
+        border-style: solid;
+        border-color:greenyellow;
+         background-color: lightgreen;
+         padding: 4px 10px 8px 12px;
+        margin: 12px 10px 12px 10px
+    }
+
+
+    #Ira{
+        border-style: dotted;
+        background-color: rgb(216, 73, 73);
+        border-right: 20px;
+         border-color: rgb(207, 15, 15);
+          padding: 7px 9px 8px 7px;
+        margin: 9px 8px 9px 8px
+    }
+
+    #Calma{
+         border-style: solid;
+         border-color: lightblue;
+         background-color: wheat;
+         padding: 14px 10px 8px 12px;
+         margin: 12px 10px 12px 10px
+    }
+
+    #Amor{
+         border-style: solid;
+         background-color: palevioletred;
+          border-color: rgb(216, 81, 101);
+          padding: 14px 10px 8px 12px;
+        margin: 12px 10px 12px 10px
+    }
+
+    #Verguenza{
+        border-style: dotted;
+        border-color: rgb(175, 51, 51);
+         background-color: rgb(146, 82, 57);
+          padding: 7px 9px 8px 7px;
+        margin: 9px 8px 9px 8px
+    }
+    
+    #Tristeza{
+        border-style: dotted;
+        border-color: blue;
+         background-color: lightseagreen;
+          padding: 7px 9px 8px 7px;
+        margin: 9px 8px 9px 8px
+    
+    }
+
+    #Satisfacción{
+        border-style: solid;
+        border-color:navy;
+        background-color: rgb(50, 4, 94);
+        padding: 14px 10px 8px 12px;
+        margin: 12px 10px 12px 10px;
+    }
+
+   
