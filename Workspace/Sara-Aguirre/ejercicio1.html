@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Pares del 2 al 100</title>
+</head>
+<body>
+
+    <h1>Números Pares del 2 al 100</h1>
+
+    <div id="numeros-pares"></div>
+
+    <script>
+        // Obtengo el contenedor donde mostraré los números
+        const contenedor = document.getElementById("numeros-pares");
+
+        // Recorrer los números del 2 al 100
+        for (let i = 2; i <= 100; i += 2) {
+            // Creo un nuevo elemento div para cada número
+            const div = document.createElement("div");
+            div.textContent = i;  // Asigno el valor del número par al div
+            contenedor.appendChild(div);  // Agrego el div al contenedor
+
+            // Agrego una línea <hr> después de cada número
+            const hr = document.createElement("hr");
+            contenedor.appendChild(hr);
+        }
+    </script>
+
+</body>
+</html>
